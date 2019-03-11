@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title>CSS3 Selecter Basic page</title>
+        <style>
+            input:not([type=password]) {
+                background: red;
+            }
+            input[type="text"] {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <input type="password" />
+            <input type="text" />
+            <input type="password" />
+            <input type="text" />
+        </ul>
+    </body>
+</html>
